@@ -1,0 +1,152 @@
+    /* ## Page Banner ## */
+    .page-banner {
+        position: relative;
+    }
+    
+    .page-banner > img  { 
+        width: 100%;
+    }
+    
+    .page-detail{
+        position: absolute;
+        top: 20%;
+        width: 100%;
+    }
+    
+    .height-70{
+      height:50vh;
+      width:100%;
+    }
+    
+    .site-heading h2 {
+        display: block;
+        font-weight: 700;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+      }
+      
+      .site-heading h2 span {
+        color: #00a01d;
+      }
+      
+      .site-heading h4 {
+        display: inline-block;
+        padding-bottom: 20px;
+        position: relative;
+        text-transform: capitalize;
+        z-index: 1;
+      }
+      
+      .site-heading h4::before {
+        background: #00a01d none repeat scroll 0 0;
+        bottom: 0;
+        content: "";
+        height: 2px;
+        left: 50%;
+        margin-left: -25px;
+        position: absolute;
+        width: 50px;
+      }
+      
+      .site-heading {
+        margin-bottom: 60px;
+        overflow: hidden;
+        margin-top: -5px;
+      }
+      
+      
+      
+      .we-offer-area.text-center .item i {
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        color: #0c0c0c;
+        font-size: 30px;
+        position: relative;
+        text-align: center;
+        z-index: 1;
+        transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -ms-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+        margin-bottom: 25px;
+      }
+      
+    .carousel-caption {
+          position: absolute;
+          top:25% !important;
+          right: 15%;
+          bottom: 20px;
+          left: 15%;
+          z-index: 10;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          color: #fff;
+          text-align: center;
+      }
+      
+  #footer
+  {background: #000000;padding: 0 0 30px 0;color: #fff;font-size: 14px}
+
+.container2{
+  height: 180px;
+  text-align: center;
+}
+
+@media screen and (max-width:576px){
+  .page-banner .page-detail {
+    width:100%;
+    text-align: center;
+    margin-top: -10%;
+    text-transform: uppercase;
+    font-size: small;
+  }
+  .page-banner img{
+    width: 100%;
+    height: 10%;
+  }
+  .page-banner p{
+    text-align: end;
+  }
+  .page-banner button{
+    margin-left: 70%;
+    margin-top: -20%;
+  }
+  .container2{
+    width: 100%;
+    text-align: center;  
+  }
+  .image{
+    width: 100%;
+    margin-top:100%;
+  }
+  .text{
+    width: 100%;
+    margin-top:260%;
+    background-position: center;
+  }
+  iframe{
+    width: 100%; 
+  }
+  .slide h3{
+    width: 100%;
+    text-align: center;
+  }
+  .container1{
+    width: 100%;
+    text-align: center;
+  }
+  #contact{
+    width: 100%;
+    text-align: center;
+  }
+  .carousel-inner .carousel-item .carousel-caption p{
+    width: 100%;
+  }
+  
+}
+
+
+
+
